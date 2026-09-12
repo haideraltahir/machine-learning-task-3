@@ -1,7 +1,8 @@
+```markdown
 # House Price Prediction: Model Validation & Hyperparameter Tuning
 
 ## Overview
-This repository contains the implementation of a professional machine learning workflow focused on model reliability, validation, and optimization. Using the California Housing Dataset, the project demonstrates how to detect overfitting in base models, establish trustworthy performance metrics using Cross-Validation, and optimize model parameters using `GridSearchCV`[cite: 1].
+This repository contains the implementation of a professional machine learning workflow focused on model reliability, validation, and optimization[cite: 1]. Using the California Housing Dataset, the project demonstrates how to detect overfitting in base models, establish trustworthy performance metrics using Cross-Validation, and optimize model parameters using `GridSearchCV`[cite: 1].
 
 ## Key Learning Outcomes & Implementation
 * **Overfitting Detection:** Analyzed the performance gap between training and testing data using an unconstrained Decision Tree Regressor[cite: 1].
@@ -35,3 +36,32 @@ The systematic tuning process successfully mitigated overfitting and produced a 
    ```bash
    git clone <your-repository-url>
    cd <repository-folder>
+
+```
+
+2. **Activate your virtual environment (recommended):**
+* Windows: `venv\Scripts\activate`
+* Linux/Mac: `source venv/bin/activate`
+
+
+3. **Install required dependencies:**
+```bash
+pip install pandas numpy matplotlib scikit-learn jupyter
+
+```
+
+
+4. **Launch Jupyter Notebook:**
+```bash
+jupyter notebook
+
+```
+
+
+5. Open `AI_ML_Task3_Model_Validation_Tuning.ipynb` and run the cells sequentially to reproduce the validation and tuning results.
+
+
+
+```
+
+```
